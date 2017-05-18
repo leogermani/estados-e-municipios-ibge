@@ -4,6 +4,8 @@ Este repositório reúne as listas de estados e municípios, de acordo com o IBG
 
 Esta lista foi gerada em maio de 2017.
 
+No formato SQL, existe uma relação direta entre as tabelas de estados e município. Nos demais formatos, para fazer a relação entre estados e municípios, basta pegar os dois primeiros dígitos do cdigo do município, que se referem ao código do estado.
+
 ## SQL
 
 Script SQL que cira as tabelas `uf` e `município`.
